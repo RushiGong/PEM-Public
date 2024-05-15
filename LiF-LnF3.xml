@@ -1,0 +1,3442 @@
+<?xml version="1.0"?>
+<?xml-model href="database.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<Database version="0">
+  <metadata>
+    <writer>pycalphad 0.10.1</writer>
+  </metadata>
+  <ChemicalElement id="/-" mass="0.0" reference_phase="ELECTRON_GAS" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="CE" mass="140.11" reference_phase="FCC_A1" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="DY" mass="162.5" reference_phase="HCP_A3" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="ER" mass="167.26" reference_phase="HCP_A3" H298="7392.3" S298="73.178"/>
+  <ChemicalElement id="EU" mass="151.97" reference_phase="BCC_A2" H298="0.0" S298="80.793"/>
+  <ChemicalElement id="F" mass="18.998" reference_phase="1/2_MOLE_F2(GAS)" H298="4412.5" S298="101.34"/>
+  <ChemicalElement id="GD" mass="157.25" reference_phase="HCP_A3" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="HO" mass="164.93" reference_phase="HCP_A3" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="LA" mass="138.91" reference_phase="DHCP" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="LI" mass="6.941" reference_phase="BCC_A2" H298="4623.3" S298="29.095"/>
+  <ChemicalElement id="LU" mass="174.97" reference_phase="HCP_A3" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="ND" mass="144.24" reference_phase="DHCP" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="PM" mass="0.0" reference_phase="1_MOLE_PM(PM_S)" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="PR" mass="140.91" reference_phase="DHCP" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="SM" mass="150.36" reference_phase="RHOMB_C19" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="TB" mass="158.93" reference_phase="HCP_A3" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="TM" mass="168.93" reference_phase="HCP_A3" H298="7397.3" S298="74.015"/>
+  <ChemicalElement id="VA" mass="0.0" reference_phase="VACUUM" H298="0.0" S298="0.0"/>
+  <ChemicalElement id="YB" mass="173.04" reference_phase="FCC_A1" H298="0.0" S298="0.0"/>
+  <Species id="CE1F3" charge="0">
+    <ChemicalElement refid="CE" ratio="1.0"/>
+    <ChemicalElement refid="F" ratio="3.0"/>
+  </Species>
+  <Species id="DY1F3" charge="0">
+    <ChemicalElement refid="DY" ratio="1.0"/>
+    <ChemicalElement refid="F" ratio="3.0"/>
+  </Species>
+  <Species id="ER1F3" charge="0">
+    <ChemicalElement refid="ER" ratio="1.0"/>
+    <ChemicalElement refid="F" ratio="3.0"/>
+  </Species>
+  <Species id="EU1F3" charge="0">
+    <ChemicalElement refid="EU" ratio="1.0"/>
+    <ChemicalElement refid="F" ratio="3.0"/>
+  </Species>
+  <Species id="F1HO1" charge="0">
+    <ChemicalElement refid="F" ratio="1.0"/>
+    <ChemicalElement refid="HO" ratio="1.0"/>
+  </Species>
+  <Species id="F1LI1" charge="0">
+    <ChemicalElement refid="F" ratio="1.0"/>
+    <ChemicalElement refid="LI" ratio="1.0"/>
+  </Species>
+  <Species id="F1LU1" charge="0">
+    <ChemicalElement refid="F" ratio="1.0"/>
+    <ChemicalElement refid="LU" ratio="1.0"/>
+  </Species>
+  <Species id="F1YB1" charge="0">
+    <ChemicalElement refid="F" ratio="1.0"/>
+    <ChemicalElement refid="YB" ratio="1.0"/>
+  </Species>
+  <Species id="F2" charge="0">
+    <ChemicalElement refid="F" ratio="2.0"/>
+  </Species>
+  <Species id="F2LI2" charge="0">
+    <ChemicalElement refid="F" ratio="2.0"/>
+    <ChemicalElement refid="LI" ratio="2.0"/>
+  </Species>
+  <Species id="F3GD1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="GD" ratio="1.0"/>
+  </Species>
+  <Species id="F3HO1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="HO" ratio="1.0"/>
+  </Species>
+  <Species id="F3LA1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="LA" ratio="1.0"/>
+  </Species>
+  <Species id="F3LI3" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="LI" ratio="3.0"/>
+  </Species>
+  <Species id="F3LU1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="LU" ratio="1.0"/>
+  </Species>
+  <Species id="F3ND1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="ND" ratio="1.0"/>
+  </Species>
+  <Species id="F3PR1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="PR" ratio="1.0"/>
+  </Species>
+  <Species id="F3SM1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="SM" ratio="1.0"/>
+  </Species>
+  <Species id="F3TB1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="TB" ratio="1.0"/>
+  </Species>
+  <Species id="F3TM1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="TM" ratio="1.0"/>
+  </Species>
+  <Species id="F3YB1" charge="0">
+    <ChemicalElement refid="F" ratio="3.0"/>
+    <ChemicalElement refid="YB" ratio="1.0"/>
+  </Species>
+  <Species id="LI2" charge="0">
+    <ChemicalElement refid="LI" ratio="2.0"/>
+  </Species>
+  <Species id="F-1.0" charge="1.0">
+    <ChemicalElement refid="F" ratio="1.0"/>
+  </Species>
+  <Species id="LA+3.0" charge="3.0">
+    <ChemicalElement refid="LA" ratio="1.0"/>
+  </Species>
+  <Species id="CE+3.0" charge="3.0">
+    <ChemicalElement refid="CE" ratio="1.0"/>
+  </Species>
+  <Species id="PR+3.0" charge="3.0">
+    <ChemicalElement refid="PR" ratio="1.0"/>
+  </Species>
+  <Species id="ND+3.0" charge="3.0">
+    <ChemicalElement refid="ND" ratio="1.0"/>
+  </Species>
+  <Species id="SM+3.0" charge="3.0">
+    <ChemicalElement refid="SM" ratio="1.0"/>
+  </Species>
+  <Species id="EU+3.0" charge="3.0">
+    <ChemicalElement refid="EU" ratio="1.0"/>
+  </Species>
+  <Species id="GD+3.0" charge="3.0">
+    <ChemicalElement refid="GD" ratio="1.0"/>
+  </Species>
+  <Species id="TB+3.0" charge="3.0">
+    <ChemicalElement refid="TB" ratio="1.0"/>
+  </Species>
+  <Species id="DY+3.0" charge="3.0">
+    <ChemicalElement refid="DY" ratio="1.0"/>
+  </Species>
+  <Species id="HO+3.0" charge="3.0">
+    <ChemicalElement refid="HO" ratio="1.0"/>
+  </Species>
+  <Species id="ER+3.0" charge="3.0">
+    <ChemicalElement refid="ER" ratio="1.0"/>
+  </Species>
+  <Species id="TM+3.0" charge="3.0">
+    <ChemicalElement refid="TM" ratio="1.0"/>
+  </Species>
+  <Species id="YB+3.0" charge="3.0">
+    <ChemicalElement refid="YB" ratio="1.0"/>
+  </Species>
+  <Species id="LU+3.0" charge="3.0">
+    <ChemicalElement refid="LU" ratio="1.0"/>
+  </Species>
+  <Species id="LI+1.0" charge="1.0">
+    <ChemicalElement refid="LI" ratio="1.0"/>
+  </Species>
+  <Expr id="F10038T">
+    <Interval in="T" lower="298.15" upper="1348.0">-1734449.34 + 578.008537*T - 101.9884*T*ln(T) + 690340.0*T**(-1.0) - 0.0032474555*T**2.0 + 7.87110167e-11*T**3.0</Interval>
+    <Interval in="T" lower="1348.0" upper="1505.0">-1766436.69 + 805.764124*T - 130.855*T*ln(T)</Interval>
+    <Interval in="T" lower="1505.0" upper="1800.0">-1761870.52 + 780.531717*T - 127.821*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F10042T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1274227.16 + 215.849096*T - 81.48839*T*ln(T) + 455671.35*T**(-1.0) - 0.000480755*T**2.0 - 3.45272167e-11*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10058T">
+    <Interval in="T" lower="298.15" upper="1343.0">-1730971.73 + 556.300351*T - 99.756*T*ln(T) + 460905.0*T**(-1.0) - 0.0030454*T**2.0 - 2.33333333e-11*T**3.0</Interval>
+    <Interval in="T" lower="1343.0" upper="1416.0">-1760193.71 + 763.906173*T - 126.081*T*ln(T) - 16790.0*T**(-1.0) - 5.28e-05*T**2.0 + 4.83e-09*T**3.0</Interval>
+    <Interval in="T" lower="1416.0" upper="1800.0">-1717515.84 + 515.292473*T - 95.98*T*ln(T) - 90.0*T**(-1.0)</Interval>
+  </Expr>
+  <Expr id="F10062T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1269488.84 + 199.115711*T - 79.98939*T*ln(T) + 427619.05*T**(-1.0) - 0.0013895475*T**2.0 + 7.450965e-11*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10071T">
+    <Interval in="T" lower="298.15" upper="1766.0">-1721277.94 + 384.478755*T - 71.843*T*ln(T) - 241855.0*T**(-1.0) - 0.02181635*T**2.0 + 1.61666667e-10*T**3.0</Interval>
+    <Interval in="T" lower="1766.0" upper="2000.0">-1822196.77 + 1117.14968*T - 167.36*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F10074T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1291620.47 + 231.059119*T - 81.82195*T*ln(T) + 415269.95*T**(-1.0) - 0.00038932235*T**2.0 + 1.57878683e-11*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10076T">
+    <Interval in="T" lower="298.15" upper="600.0">-1553617.35 + 363.354496*T - 97.43992*T*ln(T) + 633077.0*T**(-1.0) - 0.04037623*T**2.0 + 8.90913e-06*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="2000.0">-1566584.8 + 576.984445*T - 131.0814*T*ln(T) + 1589909.5*T**(-1.0) - 0.000861584*T**2.0 + 7.02451833e-08*T**3.0</Interval>
+    <Interval in="T" lower="2000.0" upper="6000.0">-1568433.42 + 590.869545*T - 132.9855*T*ln(T) + 1926292.5*T**(-1.0) - 7.582035e-06*T**2.0 + 2.42423667e-10*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10081T">
+    <Interval in="T" lower="298.15" upper="1230.0">-1710881.84 + 511.519299*T - 89.10831*T*ln(T) + 346857.1*T**(-1.0) - 0.00963888*T**2.0 + 6.86727667e-09*T**3.0</Interval>
+    <Interval in="T" lower="1230.0" upper="1457.0">-1717078.72 + 628.252225*T - 106.44*T*ln(T)</Interval>
+    <Interval in="T" lower="1457.0" upper="1800.0">-2056004.93 + 1721.38285*T - 233.8784*T*ln(T) + 121470450.0*T**(-1.0) + 0.008121515*T**2.0 - 6.060015e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10085T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1273925.28 + 234.079115*T - 81.17296*T*ln(T) + 485807.95*T**(-1.0) - 0.000570104*T**2.0 - 1.32098617e-09*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10121T">
+    <Interval in="T" lower="298.15" upper="1650.0">-1710301.85 + 510.665061*T - 92.69601*T*ln(T) + 322770.0*T**(-1.0) - 0.01171485*T**2.0 - 1.08333333e-10*T**3.0</Interval>
+    <Interval in="T" lower="1650.0" upper="1800.0">-1809836.14 + 1142.45411*T - 172.4*T*ln(T) - 0.00011335*T**2.0</Interval>
+  </Expr>
+  <Expr id="F10124T">
+    <Interval in="T" lower="298.15" upper="1100.0">-1262481.7 + 139.591301*T - 70.18827*T*ln(T) + 231532.5*T**(-1.0) - 0.013587105*T**2.0 + 1.65749883e-06*T**3.0</Interval>
+    <Interval in="T" lower="1100.0" upper="1800.0">-1278607.08 + 288.885567*T - 91.42316*T*ln(T) + 2558972.0*T**(-1.0) - 0.000969367*T**2.0 + 2.28966833e-07*T**3.0</Interval>
+    <Interval in="T" lower="1800.0" upper="2000.0">-1272603.85 + 280.934687*T - 90.97544*T*ln(T) + 0.0005814685*T**2.0</Interval>
+  </Expr>
+  <Expr id="F10174T">
+    <Interval in="T" lower="298.15" upper="600.0">-1716103.01 + 409.842301*T - 75.56091*T*ln(T) + 173353.7*T**(-1.0) - 0.04205936*T**2.0 + 7.69958e-06*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="1000.0">-1728298.56 + 595.797788*T - 104.399*T*ln(T) + 1147773.0*T**(-1.0) - 0.01147228*T**2.0 + 1.55148783e-06*T**3.0</Interval>
+    <Interval in="T" lower="1000.0" upper="1400.0">-1787730.47 + 1205.62153*T - 192.579*T*ln(T) + 8702420.0*T**(-1.0) + 0.047029095*T**2.0 - 5.77050833e-06*T**3.0</Interval>
+    <Interval in="T" lower="1400.0" upper="1672.0">-1919166.91 + 2235.86037*T - 335.0471*T*ln(T) + 31497170.0*T**(-1.0) + 0.11583375*T**2.0 - 1.2015825e-05*T**3.0</Interval>
+    <Interval in="T" lower="1672.0" upper="1800.0">-1751399.97 + 790.623552*T - 130.75*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F10181T">
+    <Interval in="T" lower="298.15" upper="700.0">-1282652.57 + 162.089904*T - 73.68775*T*ln(T) + 271709.05*T**(-1.0) - 0.00851353*T**2.0 + 4.87909333e-07*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="1500.0">-1283222.07 + 162.227091*T - 73.48985*T*ln(T) + 378196.65*T**(-1.0) - 0.01008203*T**2.0 + 1.01966167e-06*T**3.0</Interval>
+    <Interval in="T" lower="1500.0" upper="2000.0">-1307060.71 + 337.559377*T - 97.5098*T*ln(T) + 4870039.5*T**(-1.0) + 0.0008070575*T**2.0 + 8.33599667e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10220T">
+    <Interval in="T" lower="298.15" upper="763.0">-1700725.43 + 597.248858*T - 106.0828*T*ln(T) - 0.001111935*T**2.0</Interval>
+    <Interval in="T" lower="763.0" upper="1572.0">-1397443.66 - 1668.40739*T + 200.508*T*ln(T) - 49999370.0*T**(-1.0) - 0.107089*T**2.0 - 1.16996917e-08*T**3.0</Interval>
+    <Interval in="T" lower="1572.0" upper="2000.0">-1745677.17 + 936.559578*T - 148.9504*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F10224T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1269987.07 + 271.943706*T - 89.32297*T*ln(T) + 719691.0*T**(-1.0) - 0.000716459*T**2.0 - 5.33022167e-10*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10230T">
+    <Interval in="T" lower="298.15" upper="1450.0">-1740252.32 + 541.016939*T - 96.62799*T*ln(T) + 514956.0*T**(-1.0) - 0.01030693*T**2.0 - 2.44046e-09*T**3.0</Interval>
+    <Interval in="T" lower="1450.0" upper="2000.0">-1797971.09 + 968.308907*T - 151.8792*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F10233T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1288925.37 + 206.678088*T - 80.54408*T*ln(T) + 475568.7*T**(-1.0) - 0.0027552965*T**2.0 - 1.746215e-09*T**3.0</Interval>
+  </Expr>
+  <Expr id="F10244T">
+    <Interval in="T" lower="298.15" upper="1326.0">-1537621.12 + 554.345196*T - 98.94564*T*ln(T) + 329017.4*T**(-1.0) - 0.00574211*T**2.0 + 2.74309833e-10*T**3.0</Interval>
+    <Interval in="T" lower="1326.0" upper="1431.0">-1525567.83 + 529.900906*T - 97.843*T*ln(T)</Interval>
+    <Interval in="T" lower="1431.0" upper="1500.0">-1586375.31 + 881.153516*T - 140.336*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F10248T">
+    <Interval in="T" lower="298.15" upper="600.0">-1239825.91 + 141.619937*T - 70.15277*T*ln(T) + 282942.8*T**(-1.0) - 0.014799505*T**2.0 + 3.277005e-06*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="1700.0">-1244382.43 + 217.695745*T - 82.1599*T*ln(T) + 613234.5*T**(-1.0) - 0.000513709*T**2.0 + 4.97913667e-08*T**3.0</Interval>
+    <Interval in="T" lower="1700.0" upper="2000.0">-1242740.11 + 213.866348*T - 81.7887*T*ln(T) - 0.00024413005*T**2.0</Interval>
+  </Expr>
+  <Expr id="F10289T">
+    <Interval in="T" lower="298.15" upper="1259.0">-1600595.86 + 528.076897*T - 95.21457*T*ln(T) + 245133.5*T**(-1.0) - 0.008167695*T**2.0 - 4.123645e-09*T**3.0</Interval>
+    <Interval in="T" lower="1259.0" upper="1435.0">-1617917.97 + 705.613451*T - 119.5787*T*ln(T)</Interval>
+    <Interval in="T" lower="1435.0" upper="2000.0">-1620439.7 + 720.144424*T - 121.336*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F10293T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1200589.97 + 223.24902*T - 81.22044*T*ln(T) + 479847.75*T**(-1.0) - 0.000552962*T**2.0 - 1.97149333e-09*T**3.0</Interval>
+  </Expr>
+  <Expr id="F11059T">
+    <Interval in="T" lower="298.15" upper="1000.0">-6834.58427 + 97.1314019*T - 24.72141*T*ln(T) - 8665.735*T**(-1.0) - 0.002852405*T**2.0 - 3.14674e-07*T**3.0</Interval>
+    <Interval in="T" lower="1000.0" upper="1508.1">-6488.60403 + 95.6966894*T - 24.65983*T*ln(T) - 0.00185225*T**2.0 - 6.61211667e-07*T**3.0</Interval>
+    <Interval in="T" lower="1508.1" upper="1586.1">-18560.5635 + 204.163478*T - 38.96043*T*ln(T)</Interval>
+    <Interval in="T" lower="1586.1" upper="3600.0">-17095.9626 + 199.976893*T - 38.5075*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F11064T">
+    <Interval in="T" lower="298.15" upper="900.0">389263.308 + 12.0310117*T - 31.09667*T*ln(T) + 51343.7*T**(-1.0) + 0.0043744995*T**2.0 - 3.89921333e-07*T**3.0</Interval>
+    <Interval in="T" lower="900.0" upper="2000.0">394013.061 - 20.8136263*T - 26.77322*T*ln(T) - 746813.0*T**(-1.0) + 0.0035990595*T**2.0 - 5.867165e-07*T**3.0</Interval>
+    <Interval in="T" lower="2000.0" upper="4300.0">446189.988 - 312.145001*T + 11.50177*T*ln(T) - 14377915.0*T**(-1.0) - 0.00917368*T**2.0 + 2.31208667e-07*T**3.0</Interval>
+    <Interval in="T" lower="4300.0" upper="6600.0">314516.395 - 4.49008202*T - 24.02177*T*ln(T) + 72305750.0*T**(-1.0) - 0.00529332*T**2.0 + 1.6610595e-07*T**3.0</Interval>
+    <Interval in="T" lower="6600.0" upper="10000.0">-157617.484 + 985.460516*T - 137.2938*T*ln(T) + 442242800.0*T**(-1.0) + 0.00680942*T**2.0 - 7.67351667e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F12131T">
+    <Interval in="T" lower="298.15" upper="600.0">-7612.42912 + 86.5932706*T - 23.4879*T*ln(T) - 0.00827315*T**2.0 + 2.37546667e-06*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="900.0">-10917.6875 + 182.475791*T - 39.6932*T*ln(T) + 0.01820065*T**2.0 - 4.82973333e-06*T**3.0</Interval>
+    <Interval in="T" lower="900.0" upper="1200.0">46646.1882 - 421.474374*T + 48.0595*T*ln(T) - 7185900.0*T**(-1.0) - 0.0424634*T**2.0 + 3.23313333e-06*T**3.0</Interval>
+    <Interval in="T" lower="1200.0" upper="1703.0">27786.0607 - 156.162747*T + 8.28608*T*ln(T) - 6183850.0*T**(-1.0) - 0.01082725*T**2.0 - 1.11235167e-06*T**3.0</Interval>
+    <Interval in="T" lower="1703.0" upper="1745.0">-33139.7612 + 275.45552*T - 48.116*T*ln(T)</Interval>
+    <Interval in="T" lower="1745.0" upper="3000.0">-25838.6812 + 240.04001*T - 43.932*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F12138T">
+    <Interval in="T" lower="298.15" upper="1100.0">293663.59 - 49.7532553*T - 21.85733*T*ln(T) + 17921.575*T**(-1.0) + 0.0014367785*T**2.0 - 3.42384e-07*T**3.0</Interval>
+    <Interval in="T" lower="1100.0" upper="2200.0">290986.262 - 14.8706214*T - 27.05976*T*ln(T) + 229402.8*T**(-1.0) + 0.005528515*T**2.0 - 9.13813333e-07*T**3.0</Interval>
+    <Interval in="T" lower="2200.0" upper="3400.0">430548.413 - 722.214434*T + 64.41962*T*ln(T) - 39937930.0*T**(-1.0) - 0.02130712*T**2.0 + 5.73613e-07*T**3.0</Interval>
+    <Interval in="T" lower="3400.0" upper="4900.0">508055.422 - 1085.09824*T + 110.5057*T*ln(T) - 61374000.0*T**(-1.0) - 0.032665435*T**2.0 + 1.0761955e-06*T**3.0</Interval>
+    <Interval in="T" lower="4900.0" upper="7800.0">-812116.684 + 2367.08596*T - 296.1436*T*ln(T) + 744585500.0*T**(-1.0) + 0.023165335*T**2.0 - 3.65058833e-07*T**3.0</Interval>
+    <Interval in="T" lower="7800.0" upper="10000.0">253063.585 + 498.556653*T - 87.15126*T*ln(T) - 275814700.0*T**(-1.0) + 0.00489938*T**2.0 - 6.50920833e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F12993T">
+    <Interval in="T" lower="298.15" upper="550.0">-7968.40253 + 120.285004*T - 26.34*T*ln(T) - 0.0012951655*T**2.0</Interval>
+    <Interval in="T" lower="550.0" upper="1134.0">-6473.78487 + 90.540705*T - 21.79186*T*ln(T) - 0.004045175*T**2.0 - 5.25864667e-07*T**3.0</Interval>
+    <Interval in="T" lower="1134.0" upper="1193.0">-19863.1881 + 221.907689*T - 39.5388*T*ln(T)</Interval>
+    <Interval in="T" lower="1193.0" upper="4000.0">-13623.7981 + 179.627185*T - 34.3088*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F12997T">
+    <Interval in="T" lower="298.15" upper="600.0">418123.955 - 30.3347885*T - 22.06299*T*ln(T) + 102710.1*T**(-1.0) - 0.005444405*T**2.0 + 4.71447833e-07*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="1300.0">422478.905 - 85.4786167*T - 13.83676*T*ln(T) - 312130.2*T**(-1.0) - 0.011938995*T**2.0 + 1.33826017e-06*T**3.0</Interval>
+    <Interval in="T" lower="1300.0" upper="3200.0">400310.17 + 114.016724*T - 42.00406*T*ln(T) + 2891891.0*T**(-1.0) + 0.0037094435*T**2.0 - 2.70261e-07*T**3.0</Interval>
+    <Interval in="T" lower="3200.0" upper="8200.0">493601.747 - 246.085237*T + 2.791973*T*ln(T) - 34158815.0*T**(-1.0) - 0.006002155*T**2.0 + 1.30043383e-07*T**3.0</Interval>
+    <Interval in="T" lower="8200.0" upper="10000.0">-96493.044 + 773.338363*T - 111.0188*T*ln(T) + 541847500.0*T**(-1.0) + 0.0037862445*T**2.0 - 2.82257667e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F13080T">
+    <Interval in="T" lower="298.15" upper="453.6">-10583.8178 + 217.637496*T - 38.94049*T*ln(T) + 159994.05*T**(-1.0) + 0.03546693*T**2.0 - 1.98698167e-05*T**3.0</Interval>
+    <Interval in="T" lower="453.6" upper="3000.0">-9057.23628 + 179.265766*T - 31.22837*T*ln(T) - 102386.85*T**(-1.0) + 0.0026332215*T**2.0 - 4.38057833e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F13084T">
+    <Interval in="T" lower="298.15" upper="2400.0">152984.64 + 2.33568506*T - 21.07772*T*ln(T) + 7690.735*T**(-1.0) + 0.0002515552*T**2.0 - 3.41354333e-08*T**3.0</Interval>
+    <Interval in="T" lower="2400.0" upper="4800.0">183390.413 - 110.69493*T - 7.20516*T*ln(T) - 11648370.0*T**(-1.0) - 0.002217371*T**2.0 + 2.443155e-08*T**3.0</Interval>
+    <Interval in="T" lower="4800.0" upper="8800.0">109652.446 + 17.2445126*T - 21.24264*T*ln(T) + 50092500.0*T**(-1.0) - 0.0015038825*T**2.0 + 3.76717667e-08*T**3.0</Interval>
+    <Interval in="T" lower="8800.0" upper="10000.0">-72231.6406 + 344.035356*T - 57.87689*T*ln(T) + 217805300.0*T**(-1.0) + 0.0017448465*T**2.0 - 1.58650733e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F13094T">
+    <Interval in="T" lower="298.15" upper="1100.0">203319.119 + 52.2617041*T - 37.02637*T*ln(T) + 65874.15*T**(-1.0) - 0.0008421915*T**2.0 - 1.078653e-07*T**3.0</Interval>
+    <Interval in="T" lower="1100.0" upper="1900.0">200885.055 + 48.6776391*T - 35.9057*T*ln(T) + 883657.0*T**(-1.0) - 0.0039990175*T**2.0 + 5.08151333e-07*T**3.0</Interval>
+    <Interval in="T" lower="1900.0" upper="3100.0">137315.894 + 473.019388*T - 93.02457*T*ln(T) + 13866255.0*T**(-1.0) + 0.018440525*T**2.0 - 1.12358533e-06*T**3.0</Interval>
+    <Interval in="T" lower="3100.0" upper="5100.0">638944.289 - 1507.74849*T + 153.9314*T*ln(T) - 177633800.0*T**(-1.0) - 0.035715045*T**2.0 + 1.10781833e-06*T**3.0</Interval>
+    <Interval in="T" lower="5100.0" upper="6000.0">-624845.177 + 1789.13827*T - 234.2722*T*ln(T) + 595322000.0*T**(-1.0) + 0.0173718*T**2.0 - 2.55232167e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F13244T">
+    <Interval in="T" lower="298.15" upper="700.0">-8789.70682 + 146.561563*T - 29.816*T*ln(T) + 39805.0*T**(-1.0) + 0.00519635*T**2.0 - 1.79173333e-06*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="1500.0">-9043.88752 + 142.331812*T - 29.01*T*ln(T) + 141735.0*T**(-1.0) + 0.0037141*T**2.0 - 1.50142667e-06*T**3.0</Interval>
+    <Interval in="T" lower="1500.0" upper="1936.0">60739.91 - 607.079615*T + 75.522*T*ln(T) - 0.03954715*T**2.0</Interval>
+    <Interval in="T" lower="1936.0" upper="3700.0">-29991.7321 + 297.378591*T - 47.9068*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F13249T">
+    <Interval in="T" lower="298.15" upper="600.0">423752.316 - 89.0791101*T - 13.73369*T*ln(T) - 105990.2*T**(-1.0) - 0.00857374*T**2.0 + 6.82536167e-07*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="1100.0">421917.062 - 75.499356*T - 15.44036*T*ln(T) + 131242.25*T**(-1.0) - 0.00939195*T**2.0 + 1.31697583e-06*T**3.0</Interval>
+    <Interval in="T" lower="1100.0" upper="3500.0">406411.759 + 74.1577959*T - 36.85835*T*ln(T) + 2247748.0*T**(-1.0) + 0.003827463*T**2.0 - 2.20519e-07*T**3.0</Interval>
+    <Interval in="T" lower="3500.0" upper="5600.0">561196.72 - 396.777854*T + 19.66466*T*ln(T) - 75765200.0*T**(-1.0) - 0.005120825*T**2.0 + 3.594895e-08*T**3.0</Interval>
+    <Interval in="T" lower="5600.0" upper="8000.0">739606.337 - 914.09345*T + 81.2207*T*ln(T) - 165597550.0*T**(-1.0) - 0.014130225*T**2.0 + 2.75527333e-07*T**3.0</Interval>
+    <Interval in="T" lower="8000.0" upper="10000.0">-493858.984 + 1207.21213*T - 155.45*T*ln(T) + 1042340500.0*T**(-1.0) + 0.006092755*T**2.0 - 4.90683e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F14153T">
+    <Interval in="T" lower="298.15" upper="900.0">-8402.92987 + 111.10259*T - 27.0858*T*ln(T) + 34887.05*T**(-1.0) + 0.000556125*T**2.0 - 2.6923e-06*T**3.0</Interval>
+    <Interval in="T" lower="900.0" upper="1128.0">-6984.08314 + 83.6628168*T - 22.7536*T*ln(T) - 0.00420402*T**2.0 - 1.802e-06*T**3.0</Interval>
+    <Interval in="T" lower="1128.0" upper="1289.0">-21059.4854 + 242.363*T - 44.5596*T*ln(T)</Interval>
+    <Interval in="T" lower="1289.0" upper="1800.0">-26506.5416 + 276.852382*T - 48.7854*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F14158T">
+    <Interval in="T" lower="298.15" upper="700.0">321412.324 - 76.9182834*T - 15.75658*T*ln(T) + 1906.954*T**(-1.0) - 0.01258115*T**2.0 + 2.11899167e-06*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="1300.0">311548.177 + 52.1321188*T - 35.22005*T*ln(T) + 944046.5*T**(-1.0) + 0.0046091585*T**2.0 - 7.543925e-07*T**3.0</Interval>
+    <Interval in="T" lower="1300.0" upper="2000.0">299384.67 + 172.58544*T - 52.4535*T*ln(T) + 2445968.0*T**(-1.0) + 0.014998765*T**2.0 - 1.894085e-06*T**3.0</Interval>
+    <Interval in="T" lower="2000.0" upper="2900.0">629468.805 - 1637.15988*T + 184.2832*T*ln(T) - 84013200.0*T**(-1.0) - 0.06063365*T**2.0 + 2.64849167e-06*T**3.0</Interval>
+    <Interval in="T" lower="2900.0" upper="3800.0">167593.729 + 116.333123*T - 32.97873*T*ln(T) + 98945100.0*T**(-1.0) - 0.01554359*T**2.0 + 9.09085667e-07*T**3.0</Interval>
+    <Interval in="T" lower="3800.0" upper="5900.0">-343476.952 + 1913.3617*T - 253.2153*T*ln(T) + 319034000.0*T**(-1.0) + 0.02627995*T**2.0 - 5.69513333e-07*T**3.0</Interval>
+    <Interval in="T" lower="5900.0" upper="10000.0">440720.236 + 118.755803*T - 45.48911*T*ln(T) - 238940450.0*T**(-1.0) + 0.001713622*T**2.0 - 2.26641833e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F15721T">
+    <Interval in="T" lower="298.15" upper="1163.0">-7422.35903 + 80.1647685*T - 21.79273*T*ln(T) - 54.5102*T**(-1.0) - 0.01040851*T**2.0 + 4.84191667e-10*T**3.0</Interval>
+    <Interval in="T" lower="1163.0" upper="1315.0">-20335.8031 + 242.978356*T - 45.0*T*ln(T) - 1.1469315e-06*T**(-1.0) - 4.665112e-15*T**2.0 + 4.62986667e-19*T**3.0</Interval>
+    <Interval in="T" lower="1315.0" upper="5000.0">-19020.8031 + 234.796764*T - 44.0*T*ln(T) + 2.491165e-08*T**(-1.0) + 5.82907e-18*T**2.0 - 1.53614333e-22*T**3.0</Interval>
+  </Expr>
+  <Expr id="F15726T">
+    <Interval in="T" lower="298.15" upper="800.0">250509.452 - 16.8531368*T - 24.78283*T*ln(T) + 131736.9*T**(-1.0) - 0.0047051555*T**2.0 + 7.05661167e-07*T**3.0</Interval>
+    <Interval in="T" lower="800.0" upper="2100.0">249850.849 - 5.81954382*T - 26.5177*T*ln(T) + 177733.0*T**(-1.0) - 0.002737541*T**2.0 + 3.00398167e-07*T**3.0</Interval>
+    <Interval in="T" lower="2100.0" upper="4400.0">193298.956 + 304.296847*T - 67.1114*T*ln(T) + 15106220.0*T**(-1.0) + 0.01034818*T**2.0 - 4.98411167e-07*T**3.0</Interval>
+    <Interval in="T" lower="4400.0" upper="7000.0">916726.64 - 1758.41221*T + 178.7423*T*ln(T) - 386006150.0*T**(-1.0) - 0.026972315*T**2.0 + 5.691155e-07*T**3.0</Interval>
+    <Interval in="T" lower="7000.0" upper="10000.0">-1055624.33 + 1947.2619*T - 239.3529*T*ln(T) + 1362900000.0*T**(-1.0) + 0.012517975*T**2.0 - 1.3208175e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F15758T">
+    <Interval in="T" lower="298.15" upper="540.0">-15031.3288 + 266.337132*T - 53.688*T*ln(T) + 334990.0*T**(-1.0) + 0.04606095*T**2.0 - 1.64438833e-05*T**3.0</Interval>
+    <Interval in="T" lower="540.0" upper="900.0">-8640.02931 + 112.069184*T - 27.572*T*ln(T) - 1.565e-05*T**2.0 - 2.20605e-06*T**3.0</Interval>
+    <Interval in="T" lower="900.0" upper="1068.0">94666.9426 - 1063.63036*T + 145.275*T*ln(T) - 11471500.0*T**(-1.0) - 0.1278025*T**2.0 + 1.546185e-05*T**3.0</Interval>
+    <Interval in="T" lower="1068.0" upper="1204.0">-14930.8254 + 191.296035*T - 38.45096*T*ln(T)</Interval>
+    <Interval in="T" lower="1204.0" upper="3800.0">-20371.3643 + 227.867865*T - 42.96968*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F15764T">
+    <Interval in="T" lower="298.15" upper="700.0">350995.389 - 89.1034163*T - 14.16287*T*ln(T) - 51244.05*T**(-1.0) - 0.01141872*T**2.0 + 1.44039167e-06*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="1500.0">341411.209 + 41.1306715*T - 33.93032*T*ln(T) + 821625.0*T**(-1.0) + 0.006738815*T**2.0 - 1.69407667e-06*T**3.0</Interval>
+    <Interval in="T" lower="1500.0" upper="2200.0">483669.097 - 945.571862*T + 99.88821*T*ln(T) - 27577185.0*T**(-1.0) - 0.04932399*T**2.0 + 2.721675e-06*T**3.0</Interval>
+    <Interval in="T" lower="2200.0" upper="2900.0">320228.724 - 189.330549*T + 3.557685*T*ln(T) + 23659165.0*T**(-1.0) - 0.02456199*T**2.0 + 1.55794483e-06*T**3.0</Interval>
+    <Interval in="T" lower="2900.0" upper="4600.0">-96331.9786 + 1573.44308*T - 218.353*T*ln(T) + 170078250.0*T**(-1.0) + 0.027912925*T**2.0 - 7.65952667e-07*T**3.0</Interval>
+    <Interval in="T" lower="4600.0" upper="10000.0">449046.253 + 49.5479866*T - 37.20254*T*ln(T) - 139739500.0*T**(-1.0) + 0.001010353*T**2.0 - 1.26796233e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F16494T">
+    <Interval in="T" lower="298.15" upper="700.0">-3871.99365 - 32.1074271*T - 1.648496*T*ln(T) - 82167.5*T**(-1.0) - 0.0502538*T**2.0 + 1.01034533e-05*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="1190.0">-50078.2215 + 627.869491*T - 102.6649*T*ln(T) + 3861769.0*T**(-1.0) + 0.04745221*T**2.0 - 7.53838333e-06*T**3.0</Interval>
+    <Interval in="T" lower="1190.0" upper="1345.0">-19070.8792 + 255.737194*T - 46.94448*T*ln(T)</Interval>
+    <Interval in="T" lower="1345.0" upper="2100.0">-23460.3136 + 282.5116*T - 50.208*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F16499T">
+    <Interval in="T" lower="298.15" upper="1100.0">197389.067 + 1.4878472*T - 27.25423*T*ln(T) - 40312.025*T**(-1.0) - 0.004541758*T**2.0 + 9.66538167e-07*T**3.0</Interval>
+    <Interval in="T" lower="1100.0" upper="2800.0">169303.384 + 252.985231*T - 62.81893*T*ln(T) + 4157452.0*T**(-1.0) + 0.01571714*T**2.0 - 1.22936017e-06*T**3.0</Interval>
+    <Interval in="T" lower="2800.0" upper="4400.0">670735.119 - 1795.71893*T + 193.8858*T*ln(T) - 180147000.0*T**(-1.0) - 0.042934865*T**2.0 + 1.295334e-06*T**3.0</Interval>
+    <Interval in="T" lower="4400.0" upper="5900.0">-295842.195 + 803.309977*T - 113.2675*T*ln(T) + 388039950.0*T**(-1.0) + 0.0002614958*T**2.0 + 1.61802217e-07*T**3.0</Interval>
+    <Interval in="T" lower="5900.0" upper="9000.0">-658799.787 + 1797.39061*T - 230.6297*T*ln(T) + 582118000.0*T**(-1.0) + 0.016324745*T**2.0 - 2.371995e-07*T**3.0</Interval>
+    <Interval in="T" lower="9000.0" upper="10000.0">315946.241 + 222.042245*T - 56.247*T*ln(T) - 440424900.0*T**(-1.0) + 0.0024534215*T**2.0 - 3.03084333e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F16607T">
+    <Interval in="T" lower="298.15" upper="1562.0">-5428.34745 + 108.79176*T - 20.836*T*ln(T) - 196100.0*T**(-1.0) - 0.00565125*T**2.0 - 5.50501667e-07*T**3.0</Interval>
+    <Interval in="T" lower="1562.0" upper="1632.0">-27757.7921 + 301.446156*T - 46.4842*T*ln(T)</Interval>
+    <Interval in="T" lower="1632.0" upper="3500.0">-27757.7921 + 301.446156*T - 46.4842*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F16611T">
+    <Interval in="T" lower="298.15" upper="700.0">379175.609 - 25.8958003*T - 26.93875*T*ln(T) - 108693.9*T**(-1.0) + 0.005892775*T**2.0 - 1.91586167e-06*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="4300.0">382046.601 - 78.9893372*T - 18.51258*T*ln(T) - 253437.6*T**(-1.0) - 0.0039793115*T**2.0 + 1.1976835e-07*T**3.0</Interval>
+    <Interval in="T" lower="4300.0" upper="8200.0">255223.749 + 237.174933*T - 55.45044*T*ln(T) + 79708300.0*T**(-1.0) + 0.0006690405*T**2.0 + 1.4453245e-08*T**3.0</Interval>
+    <Interval in="T" lower="8200.0" upper="10000.0">127193.687 + 493.384864*T - 84.55133*T*ln(T) + 183175550.0*T**(-1.0) + 0.003555921*T**2.0 - 3.839775e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F16764T">
+    <Interval in="T" lower="298.15" upper="1818.0">-6313.83576 + 74.2059049*T - 21.837*T*ln(T) - 96930.0*T**(-1.0) - 0.00519945*T**2.0 + 1.67013333e-07*T**3.0</Interval>
+    <Interval in="T" lower="1818.0" upper="2300.0">-26771.4513 + 223.206825*T - 41.37976*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F16767T">
+    <Interval in="T" lower="298.15" upper="1700.0">226426.136 - 48.4973182*T - 21.16415*T*ln(T) + 8167.57*T**(-1.0) + 0.00040295195*T**2.0 - 7.17732167e-08*T**3.0</Interval>
+    <Interval in="T" lower="1700.0" upper="3200.0">175547.191 + 258.170858*T - 61.8846*T*ln(T) + 12017130.0*T**(-1.0) + 0.01504814*T**2.0 - 1.074275e-06*T**3.0</Interval>
+    <Interval in="T" lower="3200.0" upper="4200.0">606174.186 - 1263.96375*T + 124.8569*T*ln(T) - 173393850.0*T**(-1.0) - 0.02077128*T**2.0 + 2.06901667e-07*T**3.0</Interval>
+    <Interval in="T" lower="4200.0" upper="5600.0">1672275.5 - 4517.87916*T + 516.17*T*ln(T) - 718113000.0*T**(-1.0) - 0.0846196*T**2.0 + 2.16052833e-06*T**3.0</Interval>
+    <Interval in="T" lower="5600.0" upper="7000.0">-1865515.14 + 3576.74337*T - 420.5653*T*ln(T) + 1790867000.0*T**(-1.0) + 0.025785875*T**2.0 - 2.83225e-07*T**3.0</Interval>
+    <Interval in="T" lower="7000.0" upper="9200.0">-1929053.82 + 3892.65506*T - 459.0248*T*ln(T) + 1742991000.0*T**(-1.0) + 0.03176749*T**2.0 - 4.30601333e-07*T**3.0</Interval>
+    <Interval in="T" lower="9200.0" upper="10000.0">9916.00785 + 923.268751*T - 132.5129*T*ln(T) - 417860300.0*T**(-1.0) + 0.007312065*T**2.0 - 8.69353e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F16909T">
+    <Interval in="T" lower="298.15" upper="350.0">-7400.24479 + 99.9215695*T - 23.408*T*ln(T) - 4805.0*T**(-1.0) - 0.00501965*T**2.0 - 1.35226667e-07*T**3.0</Interval>
+    <Interval in="T" lower="350.0" upper="552.9">-41240.7944 + 905.828922*T - 159.486*T*ln(T) + 1570815.0*T**(-1.0) + 0.2378146*T**2.0 - 8.12652833e-05*T**3.0</Interval>
+    <Interval in="T" lower="552.9" upper="575.0">17986650.6 - 293689.1*T + 46080.24*T*ln(T) - 1316792000.0*T**(-1.0) - 52.5063*T**2.0 + 0.0112097733*T**3.0</Interval>
+    <Interval in="T" lower="575.0" upper="700.0">65443.1618 - 879.933888*T + 125.019*T*ln(T) - 6611495.0*T**(-1.0) - 0.1403812*T**2.0 + 2.33505167e-05*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="1033.0">20925.2922 - 242.967158*T + 27.529*T*ln(T) - 2834105.0*T**(-1.0) - 0.04629375*T**2.0 + 6.46250333e-06*T**3.0</Interval>
+    <Interval in="T" lower="1033.0" upper="1097.0">-15146.4814 + 190.025218*T - 36.1079*T*ln(T)</Interval>
+    <Interval in="T" lower="1097.0" upper="1500.0">-15880.9229 + 195.381442*T - 36.7774*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F16918T">
+    <Interval in="T" lower="298.15" upper="2300.0">146228.445 - 32.943008*T - 20.93457*T*ln(T) + 3927.1915*T**(-1.0) + 0.0001275668*T**2.0 - 1.71537667e-08*T**3.0</Interval>
+    <Interval in="T" lower="2300.0" upper="3500.0">29816.0001 + 526.200002*T - 92.67883*T*ln(T) + 35650725.0*T**(-1.0) + 0.019933835*T**2.0 - 1.051862e-06*T**3.0</Interval>
+    <Interval in="T" lower="3500.0" upper="4700.0">-42691.9462 + 870.299271*T - 136.3929*T*ln(T) + 54452050.0*T**(-1.0) + 0.030664345*T**2.0 - 1.520828e-06*T**3.0</Interval>
+    <Interval in="T" lower="4700.0" upper="5700.0">3525870.38 - 8626.42913*T + 984.7837*T*ln(T) - 2078033000.0*T**(-1.0) - 0.12610935*T**2.0 + 2.59542167e-06*T**3.0</Interval>
+    <Interval in="T" lower="5700.0" upper="6600.0">4406093.51 - 10965.3576*T + 1260.304*T*ln(T) - 2586107500.0*T**(-1.0) - 0.16345455*T**2.0 + 3.52642667e-06*T**3.0</Interval>
+    <Interval in="T" lower="6600.0" upper="7600.0">-5390284.76 + 8267.22889*T - 921.5057*T*ln(T) + 5662945000.0*T**(-1.0) + 0.05256005*T**2.0 - 4.84615833e-07*T**3.0</Interval>
+    <Interval in="T" lower="7600.0" upper="9200.0">-8496831.57 + 13951.5721*T - 1560.473*T*ln(T) + 8485720000.0*T**(-1.0) + 0.1108011*T**2.0 - 1.4773385e-06*T**3.0</Interval>
+    <Interval in="T" lower="9200.0" upper="10000.0">-2981784.53 + 5645.86398*T - 649.0989*T*ln(T) + 2226735000.0*T**(-1.0) + 0.04385013*T**2.0 - 5.54962333e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F6205T">
+    <Interval in="T" lower="298.15" upper="1000.0">-7160.52224 + 84.2302867*T - 22.36641*T*ln(T) - 18116.72*T**(-1.0) - 0.0067103*T**2.0 - 3.20773333e-07*T**3.0</Interval>
+    <Interval in="T" lower="1000.0" upper="1072.0">-15092.699 + 190.441275*T - 37.6142*T*ln(T)</Interval>
+    <Interval in="T" lower="1072.0" upper="4000.0">-15182.3182 + 191.108176*T - 37.6978*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F6209T">
+    <Interval in="T" lower="298.15" upper="800.0">415522.823 - 162.335297*T - 2.278004*T*ln(T) - 235655.4*T**(-1.0) - 0.03027047*T**2.0 + 4.49130167e-06*T**3.0</Interval>
+    <Interval in="T" lower="800.0" upper="1500.0">394890.237 + 79.9289906*T - 38.12366*T*ln(T) + 1999448.0*T**(-1.0) - 0.002449024*T**2.0 + 4.15102e-07*T**3.0</Interval>
+    <Interval in="T" lower="1500.0" upper="3200.0">390359.041 + 141.264496*T - 47.09829*T*ln(T) + 1961344.0*T**(-1.0) + 0.0033852315*T**2.0 - 2.141025e-07*T**3.0</Interval>
+    <Interval in="T" lower="3200.0" upper="5900.0">435081.797 - 76.3952524*T - 19.26359*T*ln(T) - 10269705.0*T**(-1.0) - 0.0038954345*T**2.0 + 1.30156067e-07*T**3.0</Interval>
+    <Interval in="T" lower="5900.0" upper="10000.0">209079.978 + 456.52502*T - 81.18395*T*ln(T) + 144933100.0*T**(-1.0) + 0.00366283*T**2.0 - 4.30937833e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F6241T">
+    <Interval in="T" lower="298.15" upper="1710.0">-1722978.86 + 597.706372*T - 106.3991*T*ln(T) + 442545.05*T**(-1.0) + 0.009885355*T**2.0 - 4.77489667e-06*T**3.0</Interval>
+    <Interval in="T" lower="1710.0" upper="2000.0">-1750622.07 + 821.599223*T - 133.888*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F6244T">
+    <Interval in="T" lower="298.15" upper="1300.0">-1272241.04 + 148.373218*T - 71.05058*T*ln(T) + 226735.1*T**(-1.0) - 0.012555145*T**2.0 + 1.61685883e-06*T**3.0</Interval>
+    <Interval in="T" lower="1300.0" upper="2000.0">-1314978.92 + 495.864416*T - 119.4656*T*ln(T) + 7452510.0*T**(-1.0) + 0.012374845*T**2.0 - 8.441005e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9064T">
+    <Interval in="T" lower="298.15" upper="1000.0">-7937.16665 + 102.307301*T - 26.39172*T*ln(T) + 4010.906*T**(-1.0) - 0.0007616835*T**2.0 - 5.86914167e-07*T**3.0</Interval>
+    <Interval in="T" lower="1000.0" upper="1654.1">-6594.37625 + 208.760324*T - 43.82833*T*ln(T) + 0.01669098*T**2.0 - 3.49702833e-06*T**3.0</Interval>
+    <Interval in="T" lower="1654.1" upper="1685.1">-24021.928 + 283.680019*T - 50.208*T*ln(T)</Interval>
+    <Interval in="T" lower="1685.1" upper="3000.0">-16388.9666 + 275.958207*T - 49.9151*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F9069T">
+    <Interval in="T" lower="298.15" upper="2900.0">278714.64 - 49.295734*T - 22.00798*T*ln(T) + 17282.335*T**(-1.0) + 0.001912633*T**2.0 - 5.61640833e-07*T**3.0</Interval>
+    <Interval in="T" lower="2900.0" upper="4500.0">722626.336 - 1810.30255*T + 197.709*T*ln(T) - 168636350.0*T**(-1.0) - 0.046585625*T**2.0 + 1.453406e-06*T**3.0</Interval>
+    <Interval in="T" lower="4500.0" upper="5900.0">-461900.306 + 1385.35809*T - 180.2099*T*ln(T) + 527073500.0*T**(-1.0) + 0.006970195*T**2.0 + 3.122455e-08*T**3.0</Interval>
+    <Interval in="T" lower="5900.0" upper="8400.0">-777365.194 + 2244.83657*T - 281.6341*T*ln(T) + 697803000.0*T**(-1.0) + 0.0208142*T**2.0 - 3.12280667e-07*T**3.0</Interval>
+    <Interval in="T" lower="8400.0" upper="10000.0">293651.019 + 444.975441*T - 81.41953*T*ln(T) - 377757400.0*T**(-1.0) + 0.00416317*T**2.0 - 5.24336833e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9085T">
+    <Interval in="T" lower="298.15" upper="1430.0">-1722267.41 + 512.670134*T - 92.91541*T*ln(T) + 235586.75*T**(-1.0) - 0.01096079*T**2.0 - 2.12147e-10*T**3.0</Interval>
+    <Interval in="T" lower="1430.0" upper="2000.0">-1791020.92 + 1010.0659*T - 156.9*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F9088T">
+    <Interval in="T" lower="298.15" upper="2000.0">-1272340.9 + 198.477912*T - 79.68372*T*ln(T) + 422753.7*T**(-1.0) - 0.00191641*T**2.0 - 1.81266667e-12*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9113T">
+    <Interval in="T" lower="298.15" upper="1802.0">-8489.13426 + 116.699094*T - 28.38467*T*ln(T) + 9581.36*T**(-1.0) + 0.000995792*T**2.0 - 9.52557333e-07*T**3.0</Interval>
+    <Interval in="T" lower="1802.0" upper="3200.0">-19156.1632 + 198.668301*T - 38.702*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F9116T">
+    <Interval in="T" lower="298.15" upper="900.0">307336.687 - 48.7597793*T - 21.77393*T*ln(T) + 15460.73*T**(-1.0) + 0.0013950195*T**2.0 - 3.53025333e-07*T**3.0</Interval>
+    <Interval in="T" lower="900.0" upper="1800.0">303812.386 - 3.82194445*T - 28.50126*T*ln(T) + 350389.25*T**(-1.0) + 0.00696681*T**2.0 - 1.20252383e-06*T**3.0</Interval>
+    <Interval in="T" lower="1800.0" upper="3600.0">396103.505 - 572.282504*T + 47.20087*T*ln(T) - 20835675.0*T**(-1.0) - 0.02075354*T**2.0 + 7.09440167e-07*T**3.0</Interval>
+    <Interval in="T" lower="3600.0" upper="5900.0">321195.971 - 288.22622*T + 11.97696*T*ln(T) + 9336520.0*T**(-1.0) - 0.01335094*T**2.0 + 4.17121667e-07*T**3.0</Interval>
+    <Interval in="T" lower="5900.0" upper="9600.0">-545210.385 + 1688.40706*T - 216.6827*T*ln(T) + 626097500.0*T**(-1.0) + 0.013516455*T**2.0 - 1.75677167e-07*T**3.0</Interval>
+    <Interval in="T" lower="9600.0" upper="10000.0">577396.174 + 21.4706649*T - 34.077*T*ln(T) - 669916500.0*T**(-1.0) + 0.0002979035*T**2.0 + 3.93043833e-09*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9131T">
+    <Interval in="T" lower="298.15" upper="1390.0">-1726305.06 + 570.352529*T - 102.1003*T*ln(T) + 307906.65*T**(-1.0) - 0.0003453945*T**2.0 - 1.598036e-06*T**3.0</Interval>
+    <Interval in="T" lower="1390.0" upper="1419.0">-1762191.73 + 830.07744*T - 134.892*T*ln(T)</Interval>
+    <Interval in="T" lower="1419.0" upper="2000.0">-1768188.42 + 864.974513*T - 139.118*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F9135T">
+    <Interval in="T" lower="298.15" upper="600.0">-1268777.55 + 143.104401*T - 70.51762*T*ln(T) + 283757.85*T**(-1.0) - 0.01437499*T**2.0 + 3.18020167e-06*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="1800.0">-1273251.58 + 217.549645*T - 82.26065*T*ln(T) + 609539.5*T**(-1.0) - 0.0004491503*T**2.0 + 4.22983e-08*T**3.0</Interval>
+    <Interval in="T" lower="1800.0" upper="2000.0">-1271656.47 + 213.804663*T - 81.89117*T*ln(T) - 0.00021885595*T**2.0</Interval>
+  </Expr>
+  <Expr id="F9167T">
+    <Interval in="T" lower="298.15" upper="1095.0">-9864.96506 + 135.836779*T - 32.84189*T*ln(T) + 102717.2*T**(-1.0) + 0.00931735*T**2.0 - 4.00656333e-06*T**3.0</Interval>
+    <Interval in="T" lower="1095.0" upper="1900.0">-16103.8091 + 183.931139*T - 38.11624*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F9170T">
+    <Interval in="T" lower="298.15" upper="1600.0">169928.255 - 48.5017388*T - 20.95517*T*ln(T) + 3729.2025*T**(-1.0) + 0.00017614245*T**2.0 - 3.02467833e-08*T**3.0</Interval>
+    <Interval in="T" lower="1600.0" upper="3100.0">133914.956 + 194.507154*T - 53.78814*T*ln(T) + 7470575.0*T**(-1.0) + 0.013597835*T**2.0 - 1.06864067e-06*T**3.0</Interval>
+    <Interval in="T" lower="3100.0" upper="5400.0">655078.355 - 1790.41059*T + 192.4515*T*ln(T) - 200159900.0*T**(-1.0) - 0.03832872*T**2.0 + 9.93719833e-07*T**3.0</Interval>
+    <Interval in="T" lower="5400.0" upper="7600.0">-353808.27 + 657.748419*T - 93.10385*T*ln(T) + 471041750.0*T**(-1.0) - 0.002261852*T**2.0 + 1.36367033e-07*T**3.0</Interval>
+    <Interval in="T" lower="7600.0" upper="10000.0">-1405196.26 + 2544.57484*T - 304.7474*T*ln(T) + 1452541500.0*T**(-1.0) + 0.01671275*T**2.0 - 1.83218333e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9186T">
+    <Interval in="T" lower="298.15" upper="800.0">-1175382.14 + 240.392119*T - 83.65031*T*ln(T) + 303323.1*T**(-1.0) - 0.00927322*T**2.0 + 1.58899283e-06*T**3.0</Interval>
+    <Interval in="T" lower="800.0" upper="1500.0">-1180161.06 + 298.439931*T - 92.30434*T*ln(T) + 809021.0*T**(-1.0) - 0.0021378025*T**2.0 + 4.58020333e-07*T**3.0</Interval>
+    <Interval in="T" lower="1500.0" upper="2000.0">-1203504.99 + 470.307473*T - 115.8471*T*ln(T) + 5188855.0*T**(-1.0) + 0.00850915*T**2.0 - 4.52446833e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9191T">
+    <Interval in="T" lower="298.15" upper="920.0">-1614204.79 + 527.557538*T - 93.07766*T*ln(T) + 141417.9*T**(-1.0) - 0.01623344*T**2.0 - 1.48529767e-10*T**3.0</Interval>
+    <Interval in="T" lower="920.0" upper="1500.0">-1653099.78 + 947.784617*T - 150.624*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F9247T">
+    <Interval in="T" lower="298.15" upper="1200.0">72560.7032 - 1.92714397*T - 23.59104*T*ln(T) - 8269.77*T**(-1.0) + 0.0019384005*T**2.0 - 2.53047833e-07*T**3.0</Interval>
+    <Interval in="T" lower="1200.0" upper="10000.0">74350.3317 - 20.9416543*T - 20.82144*T*ln(T) - 234363.6*T**(-1.0) + 4.4288955e-06*T**2.0 - 9.51040667e-11*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9343T">
+    <Interval in="T" lower="298.15" upper="2900.0">-191440.973 - 0.81454322*T - 36.702*T*ln(T) + 158180.0*T**(-1.0) - 0.0004273*T**2.0 + 1.48883333e-08*T**3.0</Interval>
+    <Interval in="T" lower="2900.0" upper="6000.0">-182062.377 - 19.4950984*T - 34.729*T*ln(T) - 5157900.0*T**(-1.0) - 0.0001855*T**2.0 - 2.69933333e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9365T">
+    <Interval in="T" lower="298.15" upper="700.0">-634621.638 + 305.64556*T - 50.30632*T*ln(T) + 399408.8*T**(-1.0) + 0.0012289475*T**2.0 - 2.30170167e-06*T**3.0</Interval>
+    <Interval in="T" lower="700.0" upper="1121.3">-633813.702 + 278.759762*T - 45.75246*T*ln(T) + 433813.85*T**(-1.0) - 0.006033035*T**2.0 - 4.40324167e-07*T**3.0</Interval>
+    <Interval in="T" lower="1121.3" upper="3000.0">-644878.626 + 411.074928*T - 64.18256*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="F9369T">
+    <Interval in="T" lower="298.15" upper="800.0">-350691.465 - 0.771872655*T - 29.04888*T*ln(T) + 71525.15*T**(-1.0) - 0.00751517*T**2.0 + 1.19419433e-06*T**3.0</Interval>
+    <Interval in="T" lower="800.0" upper="6000.0">-355447.914 + 57.9178673*T - 37.8299*T*ln(T) + 570100.0*T**(-1.0) - 7.078085e-05*T**2.0 - 2.61234167e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9378T">
+    <Interval in="T" lower="298.15" upper="3000.0">-77920.9429 + 12.3538644*T - 37.401*T*ln(T) + 175360.0*T**(-1.0) + 0.00010075*T**2.0 - 4.66033333e-08*T**3.0</Interval>
+    <Interval in="T" lower="3000.0" upper="6000.0">52315.8838 - 393.02985*T + 11.179*T*ln(T) - 61230000.0*T**(-1.0) - 0.00706485*T**2.0 + 1.02476667e-07*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9643T">
+    <Interval in="T" lower="298.15" upper="2500.0">-246888.866 + 1.83566284*T - 36.991*T*ln(T) + 123060.0*T**(-1.0) - 0.00039505*T**2.0 + 1.14716667e-08*T**3.0</Interval>
+    <Interval in="T" lower="2500.0" upper="6000.0">-235931.516 - 26.4490022*T - 33.793*T*ln(T) - 5178250.0*T**(-1.0) - 0.00040755*T**2.0 - 2.69466667e-08*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9657T">
+    <Interval in="T" lower="298.15" upper="800.0">-9757.53536 - 3.03641497*T - 29.08493*T*ln(T) + 72117.3*T**(-1.0) - 0.007466065*T**2.0 + 1.16183617e-06*T**3.0</Interval>
+    <Interval in="T" lower="800.0" upper="2500.0">-10225.5134 + 17.0719031*T - 32.43806*T*ln(T) - 31206.07*T**(-1.0) - 0.0028914815*T**2.0 + 2.13090167e-07*T**3.0</Interval>
+    <Interval in="T" lower="2500.0" upper="6800.0">-75010.7092 + 286.369351*T - 66.19232*T*ln(T) + 22790040.0*T**(-1.0) + 0.004699418*T**2.0 - 9.36513e-08*T**3.0</Interval>
+    <Interval in="T" lower="6800.0" upper="10000.0">79866.236 - 46.25962*T - 28.00029*T*ln(T) - 96222900.0*T**(-1.0) + 0.00048653845*T**2.0 - 6.238305e-09*T**3.0</Interval>
+  </Expr>
+  <Expr id="F9746T">
+    <Interval in="T" lower="298.15" upper="600.0">-965848.823 + 167.370861*T - 60.80524*T*ln(T) + 441150.5*T**(-1.0) - 0.0256839*T**2.0 + 5.72263167e-06*T**3.0</Interval>
+    <Interval in="T" lower="600.0" upper="3100.0">-974292.028 + 305.60898*T - 82.55869*T*ln(T) + 1071344.5*T**(-1.0) - 0.00019263825*T**2.0 + 1.11917817e-08*T**3.0</Interval>
+    <Interval in="T" lower="3100.0" upper="6000.0">-974773.94 + 309.300323*T - 83.05533*T*ln(T) + 1107624.0*T**(-1.0) - 1.293676e-05*T**2.0 + 3.52034833e-10*T**3.0</Interval>
+  </Expr>
+  <Expr id="LIFT">
+    <Interval in="T" lower="0.01" upper="2500.0">-632481.9 + 262.49323*T - 43.309*T*ln(T) + 284562.0*T**(-1.0) - 0.008156*T**2.0 - 8.4116667e-08*T**3.0</Interval>
+    <Interval in="T" lower="2500.0" upper="2500.00001">-688258.893 + 606.965943*T - 87.1523152*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="DYFT">
+    <Interval in="T" lower="298.15" upper="6000.0">F9085T</Interval>
+  </Expr>
+  <Expr id="ERFT">
+    <Interval in="T" lower="298.15" upper="6000.0">F9131T</Interval>
+  </Expr>
+  <Expr id="EUFT">
+    <Interval in="T" lower="298.15" upper="920.0">-1614204.79 + 527.557538*T - 93.07766*T*ln(T) + 141417.9*T**(-1.0) - 0.01623344*T**2.0 - 1.48529767e-10*T**3.0</Interval>
+    <Interval in="T" lower="920.0" upper="1500.0">-1653099.78 + 947.784617*T - 150.624*T*ln(T)</Interval>
+  </Expr>
+  <Expr id="GDFT">
+    <Interval in="T" lower="298.15" upper="6000.0">F10038T</Interval>
+  </Expr>
+  <Phase id="CE1F3_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="CE1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2000.0">-1689873.4 + 758.03411*T - 130.61*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="CE1F3_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="CE1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2000.0">-1722044.9 + 574.15946*T - 103.258*T*ln(T) + 360435.0*T**(-1.0) + 0.006495*T**2.0 - 4.1146667e-06*T**3.0</Interval>
+      <Interval in="T" lower="2000.0" upper="2000.00001">-1827013.36 + 1175.0282*T - 175.849783*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="CE_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="CE"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">8451.7 + F6205T - 8.08497687*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="CE_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="CE"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F6205T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="CE_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="CE"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">2991.6 + F6205T - 2.9916*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="DY1F3_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="DY1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">58576.0 + F9085T - 40.9622378*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="DY1F3_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="DY1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9085T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="DY_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">15942.2 + F9064T - 9.5117527*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="DY_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+      <MagneticOrdering type="IHJ" structure_factor="0.28" afm_factor="-3.0"/>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9064T</Interval>
+    </Parameter>
+    <Parameter type="TC">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="1000.0">179.0</Interval>
+      <Interval in="T" lower="1000.0" upper="1654.1">1396.0</Interval>
+      <Interval in="T" lower="1654.1" upper="1685.1">1e-05</Interval>
+      <Interval in="T" lower="1685.1" upper="6000.0">1e-05</Interval>
+    </Parameter>
+    <Parameter type="BMAGN">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="1000.0">3.0</Interval>
+      <Interval in="T" lower="1000.0" upper="1654.1">1.35</Interval>
+      <Interval in="T" lower="1654.1" upper="1685.1">1e-05</Interval>
+      <Interval in="T" lower="1685.1" upper="6000.0">1e-05</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="DY_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">4591.7 + F9064T - 2.77595067*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ER1F3_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ER1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">57781.0 + F9131T - 41.1538276*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ER1F3_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ER1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9131T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ER1F3_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ER1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">29539.0 + F9131T - 21.2510791*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ER_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ER"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">19903.3 + F9113T - 11.0451165*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ER_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ER"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9113T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="EU1F3_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="EU1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="800.0">-1553992.2 + 407.23377*T - 75.34*T*ln(T) - 1.6146667*T**1.5 - 0.005685*T**2.0</Interval>
+      <Interval in="T" lower="800.0" upper="4000.0">-1592313.1 + 908.16157*T - 150.624*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="EU1F3_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="EU1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="920.0">-1614204.79 + 527.557538*T - 93.07766*T*ln(T) + 141417.9*T**(-1.0) - 0.01623344*T**2.0 - 1.48529767e-10*T**3.0</Interval>
+      <Interval in="T" lower="920.0" upper="1500.0">-1653099.78 + 947.784617*T - 150.624*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="EU1F3_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="EU1F3"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">6401.9 + F9191T - 6.95858696*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="EU_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="EU"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">9213.2 + F9167T - 8.41388128*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="EU_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="EU"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9167T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F1LI1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F1LI1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F1LI1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">27087.2 + F9365T - 24.1569607*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F1LI1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F1LI1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F1LI1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">-632481.9 + 262.49323*T - 43.309*T*ln(T) + 284562.0*T**(-1.0) - 0.008156*T**2.0 - 8.4116667e-08*T**3.0</Interval>
+      <Interval in="T" lower="2500.0" upper="2500.00001">-688258.893 + 606.965943*T - 87.1523152*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3GD1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3GD1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3GD1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">58431.4 + F10038T - 39.2894877*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3GD1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3GD1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3GD1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10038T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3GD1_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3GD1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3GD1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">6004.0 + F10038T - 4.45400593*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3HO1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3HO1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3HO1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">57152.0 + F10058T - 40.3936734*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3HO1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3HO1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3HO1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10058T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3HO1_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3HO1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3HO1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">836.0 + F10058T - 0.62248697*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3LA1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3LA1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LA1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="1766.0">-1756238.2 + 384.73893*T - 77.730352*T*ln(T) - 0.009976748*T**2.0</Interval>
+      <Interval in="T" lower="1766.0" upper="2000.0">-1857547.8 + 985.11483*T - 152.716*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3LA1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3LA1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LA1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="1766.0">-1712105.54 + 715.961218*T - 122.1188*T*ln(T) + 1085690.0*T**(-1.0) + 0.0112337*T**2.0 + 2.71823333e-06*T**3.0 - 2.34788333e-09*T**4.0</Interval>
+      <Interval in="T" lower="1766.0" upper="1766.00001">-1820259.29 + 1270.9759*T - 186.057995*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3LU1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3LU1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LU1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">55291.5 + F10081T - 41.1207445*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3LU1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3LU1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LU1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10081T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3LU1_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3LU1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LU1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">25041.2 + F10081T - 20.3586992*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3ND1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3ND1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3ND1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="1650.0">-1631781.2 + 352.97214*T - 74.97728*T*ln(T) - 1014620.0*T**(-1.0) - 0.018305*T**2.0</Interval>
+      <Interval in="T" lower="1650.0" upper="1900.0">-1765032.6 + 1208.50488*T - 184.47256*T*ln(T) + 5962200.0*T**(-1.0) + 0.00221752*T**2.0</Interval>
+      <Interval in="T" lower="1900.0" upper="1900.00001">-1744475.36 + 1114.99524*T - 172.742826*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3ND1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3ND1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3ND1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="1650.0">-1686591.6 + 386.19056*T - 74.97728*T*ln(T) - 1014620.0*T**(-1.0) - 0.018305*T**2.0</Interval>
+      <Interval in="T" lower="1650.0" upper="1650.00001">-1738886.65 + 840.354016*T - 136.129139*T*ln(T)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3PR1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3PR1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3PR1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">57321.0 + F10174T - 34.2828947*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3PR1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3PR1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3PR1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10174T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3SM1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3SM1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3SM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">54472.2 + F10220T - 35.9755382*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3SM1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3SM1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3SM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10220T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3SM1_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3SM1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3SM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">1963.0 + F10220T - 2.57273919*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3TB1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3TB1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3TB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">52743.5 + F10230T - 36.3748276*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3TB1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3TB1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3TB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10230T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3TM1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3TM1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3TM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">59162.0 + F10244T - 43.0193486*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3TM1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3TM1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3TM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10244T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3TM1_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3TM1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3TM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">30292.0 + F10244T - 22.8446455*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3YB1_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3YB1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3YB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">59174.4 + F10289T - 43.6372423*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3YB1_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3YB1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3YB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10289T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="F3YB1_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="F3YB1"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3YB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">24643.8 + F10289T - 19.5741064*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="GAS">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="CE"/>
+          <Constituent refid="CE1F3"/>
+          <Constituent refid="DY"/>
+          <Constituent refid="DY1F3"/>
+          <Constituent refid="ER"/>
+          <Constituent refid="ER1F3"/>
+          <Constituent refid="EU"/>
+          <Constituent refid="EU1F3"/>
+          <Constituent refid="F"/>
+          <Constituent refid="F1HO1"/>
+          <Constituent refid="F1LI1"/>
+          <Constituent refid="F1LU1"/>
+          <Constituent refid="F1YB1"/>
+          <Constituent refid="F2"/>
+          <Constituent refid="F2LI2"/>
+          <Constituent refid="F3GD1"/>
+          <Constituent refid="F3HO1"/>
+          <Constituent refid="F3LA1"/>
+          <Constituent refid="F3LI3"/>
+          <Constituent refid="F3LU1"/>
+          <Constituent refid="F3ND1"/>
+          <Constituent refid="F3PR1"/>
+          <Constituent refid="F3SM1"/>
+          <Constituent refid="F3TB1"/>
+          <Constituent refid="F3TM1"/>
+          <Constituent refid="F3YB1"/>
+          <Constituent refid="GD"/>
+          <Constituent refid="HO"/>
+          <Constituent refid="LA"/>
+          <Constituent refid="LI"/>
+          <Constituent refid="LI2"/>
+          <Constituent refid="LU"/>
+          <Constituent refid="ND"/>
+          <Constituent refid="PM"/>
+          <Constituent refid="PR"/>
+          <Constituent refid="SM"/>
+          <Constituent refid="TB"/>
+          <Constituent refid="TM"/>
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+      <Gas/>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F6209T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F6244T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9069T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9088T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9116T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9135T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9170T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU1F3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9186T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9247T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F1HO1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9343T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F1LI1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9369T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F1LU1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9378T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F1YB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9643T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F2"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9657T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F2LI2"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F9746T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3GD1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10042T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3HO1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10062T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LA1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10074T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LI3"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10076T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3LU1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10085T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3ND1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10124T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3PR1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10181T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3SM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10224T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3TB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10233T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3TM1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10248T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="F3YB1"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F10293T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F11064T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="HO"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F12138T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F12997T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F13084T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI2"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F13094T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LU"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F13249T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ND"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F14158T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F15726T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PR"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F15764T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="SM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16499T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16611T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16767T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16918T + 8.3145*T*ln(1e-05*P)</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="GD_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">13186.7 + F11059T - 8.42865498*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="GD_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+      <MagneticOrdering type="IHJ" structure_factor="0.28" afm_factor="-3.0"/>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F11059T</Interval>
+    </Parameter>
+    <Parameter type="TC">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="1000.0">293.4</Interval>
+      <Interval in="T" lower="1000.0" upper="1508.1">-201.0</Interval>
+      <Interval in="T" lower="1508.1" upper="1586.1">1043.0</Interval>
+      <Interval in="T" lower="1586.1" upper="6000.0">1e-05</Interval>
+    </Parameter>
+    <Parameter type="BMAGN">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="1000.0">3.0</Interval>
+      <Interval in="T" lower="1000.0" upper="1508.1">-2.1</Interval>
+      <Interval in="T" lower="1508.1" upper="1586.1">2.22</Interval>
+      <Interval in="T" lower="1586.1" upper="6000.0">1e-05</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="GD_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">3518.7 + F11059T - 2.33320072*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="HO_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="HO"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="HO"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">16028.8 + F12131T - 9.24593276*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="HO_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="HO"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="HO"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F12131T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="HO_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="HO"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="HO"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">4271.8 + F12131T - 2.50839695*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LA_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">9681.8 + F12993T - 8.60833593*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LA_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F12993T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LA_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">364.0 + F12993T - 0.661818182*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LA_S3">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LA"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">3485.3 + F12993T - 3.41428732*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LI_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">3000.0 + F13080T - 6.61375661*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LI_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F13080T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LU_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LU"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LU"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">18648.1 + F13244T - 9.63228306*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LU_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LU"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LU"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F13244T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ND_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ND"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ND"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">10171.3 + F14153T - 8.22626782*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ND_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ND"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ND"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F14153T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="ND_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="ND"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ND"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">3029.2 + F14153T - 2.68546099*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="PM_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="PM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">10900.0 + F15721T - 8.60701804*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="PM_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="PM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F15721T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="PM_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="PM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">3200.0 + F15721T - 2.75150473*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="PR_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="PR"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PR"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">10054.2 + F15758T - 8.68565331*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="PR_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="PR"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PR"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F15758T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="PR_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="PR"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PR"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">3167.3 + F15758T - 2.9656367*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="SM_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="SM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="SM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">11731.9 + F16494T - 9.02406079*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="SM_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="SM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="SM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16494T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="SM_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="SM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="SM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">3112.9 + F16494T - 2.61588235*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="TB_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="TB"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">14531.0 + F16607T - 9.02408928*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="TB_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="TB"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16607T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="TB_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="TB"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">4380.6 + F16607T - 2.80448143*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="TM_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="TM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">16840.6 + F16764T - 9.26325633*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="TM_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="TM"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TM"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16764T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="YB_L">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">9405.6 + F16909T - 8.67270184*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="YB_S">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16909T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="YB_S2">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">F16909T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="YB_S3">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="YB"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="298.15" upper="6000.0">1748.9 + F16909T - 1.69303001*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="MSFL">
+    <Model type="MQMQA" version="SUBQ">
+      <ConstituentArray>
+        <Site id="0">
+          <Constituent refid="LA+3.0"/>
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="CE+3.0"/>
+          <Constituent refid="DY+3.0"/>
+          <Constituent refid="ER+3.0"/>
+          <Constituent refid="EU+3.0"/>
+          <Constituent refid="GD+3.0"/>
+          <Constituent refid="HO+3.0"/>
+          <Constituent refid="LU+3.0"/>
+          <Constituent refid="ND+3.0"/>
+          <Constituent refid="PR+3.0"/>
+          <Constituent refid="SM+3.0"/>
+          <Constituent refid="TB+3.0"/>
+          <Constituent refid="TM+3.0"/>
+          <Constituent refid="YB+3.0"/>
+        </Site>
+        <Site id="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <ChemicalGroups>
+        <Cations>
+           <Constituent refid="LA+3.0" groupid="2"/>
+           <Constituent refid="LI+1.0" groupid="1"/>
+           <Constituent refid="CE+3.0" groupid="2"/>
+           <Constituent refid="DY+3.0" groupid="2"/>
+           <Constituent refid="ER+3.0" groupid="2"/>
+           <Constituent refid="EU+3.0" groupid="2"/>
+           <Constituent refid="GD+3.0" groupid="2"/>
+           <Constituent refid="HO+3.0" groupid="2"/>
+           <Constituent refid="LU+3.0" groupid="2"/>
+           <Constituent refid="ND+3.0" groupid="2"/>
+           <Constituent refid="PR+3.0" groupid="2"/>
+           <Constituent refid="SM+3.0" groupid="2"/>
+           <Constituent refid="TB+3.0" groupid="2"/>
+           <Constituent refid="TM+3.0" groupid="2"/>
+           <Constituent refid="YB+3.0" groupid="2"/>
+        </Cations>
+        <Anions>
+          <Constituent refid="F-1.0" groupid="1"/>
+        </Anions>
+      </ChemicalGroups>
+    </Model>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 1.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="0.01" upper="4000.1">-617790.16 + 386.90985*T - 64.183*T*ln(T)</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LA+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="0.01" upper="3000.1">-1674170.0 + 806.53663*T - 135.0*T*ln(T)</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="0.01" upper="4000.1">-1689873.4 + 758.03411*T - 130.61*T*ln(T)</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">58576.0 + F9085T - 40.9622378*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">57781.0 + F9131T - 41.1538276*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="0.01" upper="800.0">-1553992.2 + 407.23377*T - 75.34*T*ln(T) - 1.6146667*T**1.5 - 0.005685*T**2.0</Interval>
+      <Interval in="T" lower="800.0" upper="4000.0">-1592313.1 + 908.16157*T - 150.624*T*ln(T)</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">58431.4 + F10038T - 39.2894877*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="HO+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">57152.0 + F10058T - 40.3936734*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LU+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">55291.5 + F10081T - 41.1207445*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ND+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="0.01" upper="1650.0">-1631781.17 + 352.972139*T - 74.97728*T*ln(T) - 1014620.0*T**(-1.0) - 0.018305*T**2.0</Interval>
+      <Interval in="T" lower="1650.0" upper="1900.0">-1765032.57 + 1208.50488*T - 184.47256*T*ln(T) + 5962200.0*T**(-1.0) + 0.00221752*T**2.0</Interval>
+      <Interval in="T" lower="1900.0" upper="1900.00001">-1744475.32 + 1114.99524*T - 172.742826*T*ln(T)</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PR+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">57321.0 + F10174T - 34.2828947*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="SM+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">54472.2 + F10220T - 35.9755382*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TB+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">52743.5 + F10230T - 36.3748276*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="YB+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">59174.4 + F10289T - 43.6372423*T</Interval>
+    </Parameter>
+    <Parameter type="MQMG">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TM+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Zeta>2.4</Zeta>
+      <StoichiometricFactors>1.0 3.0 0.0 0.0 0.0</StoichiometricFactors>
+      <Interval in="T" lower="298.15" upper="6000.0">59162.0 + F10244T - 43.0193486*T</Interval>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="LI+1.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 6.0 6.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LA+3.0"/>
+          <Constituent refid="LA+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="LA+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+     </Parameter>
+     <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="CE+3.0"/>
+          <Constituent refid="CE+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="CE+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="DY+3.0"/>
+          <Constituent refid="DY+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="DY+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ER+3.0"/>
+          <Constituent refid="ER+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="ER+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="EU+3.0"/>
+          <Constituent refid="EU+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="EU+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="GD+3.0"/>
+          <Constituent refid="GD+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="GD+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="HO+3.0"/>
+          <Constituent refid="HO+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="HO+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LU+3.0"/>
+          <Constituent refid="LU+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="LU+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="ND+3.0"/>
+          <Constituent refid="ND+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="ND+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="PR+3.0"/>
+          <Constituent refid="PR+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="PR+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="SM+3.0"/>
+          <Constituent refid="SM+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="SM+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TB+3.0"/>
+          <Constituent refid="TB+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="TB+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="YB+3.0"/>
+          <Constituent refid="YB+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="YB+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="TM+3.0"/>
+          <Constituent refid="TM+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>6.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMZ">
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI+1.0"/>
+          <Constituent refid="TM+3.0"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="F-1.0"/>
+          <Constituent refid="F-1.0"/>
+        </Site>
+      </ConstituentArray>
+      <Coordinations>2.0 6.0 2.0 2.0</Coordinations>
+    </Parameter>
+    <Parameter type="MQMX">-5664.103807487612 -8.495122324739103*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="TM+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 0 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-14013.27004621521723<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="TM+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 1 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">306.11458818174782<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="TM+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1 0 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-3107.788354784318 - 9.001990357644038*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="YB+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-12524.016204207403<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="YB+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-575.1846226951744<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="YB+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-10966.344583892362+ 1.578973630452114*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="TB+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-1802.8048521645687<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="TB+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">4123.4574883958248<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="TB+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-3599.6110268803086 -1.968777996345132*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="SM+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-6292.995631059141<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="SM+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">795.0064872307103<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="SM+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-4050.52434881819 + 0.09206642983933974*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="PR+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-6191.9077462416135<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="PR+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-344.5932178085194<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="PR+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-4099.270818625134<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="ND+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 0 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-9089.139814058917<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="ND+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 1 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-3813.14966443404 -8.279109974135194*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="LU+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-13598.5892556859792<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="LU+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-155.40682400341399<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="LU+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-3071.7459614109953  -5.09449027563539*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="HO+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">2920.631059683961<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="HO+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">46.76183254684497<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="HO+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-6741.60978363573-1.8161432418321937*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="GD+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">4397.216360610606<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="GD+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">632.8772607807844<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="GD+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-8488.019321618396 -1.17032831866258*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="EU+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">237.60119795230426<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="EU+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-1159.440622135564<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="EU+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-6999.75453614856+1.142196983934576*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="ER+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-243.04830903576976<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="ER+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0.0 1.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-6036.004757130891<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="ER+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1.0 0.0 0.0 0.0</Exponents></Parameter>
+    <Parameter type="MQMX">-3655.9691872627227 -0.6015948992983846*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="LA+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 0 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-4189.44776505018<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="LA+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 1 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-171.20066038370373 -4.360926096125602*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="CE+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 0 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-378.4651047413072<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="CE+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 1 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">452.32428283507153<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="CE+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1 0 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-4154.69442066068-4.139563820865355*T<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="DY+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 0 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-123.31300461483261<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="DY+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>0 1 0 0</Exponents></Parameter>
+    <Parameter type="MQMX">-3679.282776122928<ConstituentArray><Site refid="0"><Constituent refid="LI+1.0"/><Constituent refid="DY+3.0"/></Site><Site refid="1"><Constituent refid="F-1.0"/><Constituent refid="F-1.0"/></Site></ConstituentArray><MixingCode type="G"/><Exponents>1 0 0 0</Exponents></Parameter>
+  </Phase>
+  <Phase id="LIDYF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="DY"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="DY"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500">LIFT + DYFT -26592.8797798689 + 12.174059004544738*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LIERF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="ER"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="ER"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">LIFT + ERFT -35626.7899374546 + T*21.4225784921846</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LIEUF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="EU"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="EU"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">-35051.9468327472 + LIFT + EUFT + T*26.612717478659278</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LIGDF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="GD"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="GD"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">LIFT + GDFT -25046.16431202567 + T*18.5282176679896</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LIHOF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="HO"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="HO"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">-17432.205249833 + LIFT + F10058T + T*7.03552188197632</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LILUF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="LU"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="LU"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">LIFT + F10081T -20564.006586318017 +0.931207564188875*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LITBF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="TB"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="TB"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">-14332.7807846408 + LIFT + F10230T + T*6.59760732820031</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LIYBF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="YB"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="YB"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500.0">LIFT + F10289T -21817.79790302409 + 1.328052128601091*T</Interval>
+    </Parameter>
+  </Phase>
+  <Phase id="LITMF4">
+    <Model type="CEF">
+      <ConstituentArray>
+        <Site id="0" ratio="1.0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site id="1" ratio="1.0">
+          <Constituent refid="TM"/>
+        </Site>
+        <Site id="2" ratio="4.0">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+    </Model>
+    <Parameter type="G">
+      <Order>0</Order>
+      <ConstituentArray>
+        <Site refid="0">
+          <Constituent refid="LI"/>
+        </Site>
+        <Site refid="1">
+          <Constituent refid="TM"/>
+        </Site>
+        <Site refid="2">
+          <Constituent refid="F"/>
+        </Site>
+      </ConstituentArray>
+      <Interval in="T" lower="0.01" upper="2500">LIFT + F10244T -22286.418655660465 + 2.02667216559304*T</Interval>
+    </Parameter>
+  </Phase>
+</Database>
